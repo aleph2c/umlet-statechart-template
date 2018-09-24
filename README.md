@@ -1,6 +1,11 @@
-# umlet-statechart-template
-This is simple statechart template that can be used with UMLet.  
+# Templates for UMLet
 
-Copy this file into:
+Remove old palletes directory
 
-    Umlet/palettes/UML State Machine.uxf
+    rm <UMLet Dir>/palletes
+    
+Clone this repo into your UMLet palletes directory
+
+    git clone git@github.com:aleph2c/umlet-statechart-template.git <UMLmet Dir>/palletes
+    
+Open UMLet
