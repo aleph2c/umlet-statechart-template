@@ -1,11 +1,11 @@
 # Templates for UMLet
 
-Remove old palletes directory
+Remove old palettes directory
 
-    rm <UMLet Dir>/palletes
+    rm <UMLet Dir>/palettes
     
-Clone this repo into your UMLet palletes directory
+Clone this repo into your UMLet palettes directory
 
-    git clone git@github.com:aleph2c/umlet-statechart-template.git <UMLmet Dir>/palletes
+    git clone git@github.com:aleph2c/umlet-statechart-template.git <UMLmet Dir>/palettes
     
 Open UMLet
