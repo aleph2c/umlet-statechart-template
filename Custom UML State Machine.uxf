@@ -621,4 +621,37 @@ layer=3</panel_attributes>
 layer=3</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>272</x>
+      <y>32</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>customelement=
+// LEFT
+drawText("*+*",width/4.7,height/1.75,center)
+
+// BOTTOM (make minus bigger on bottom)
+drawText("*-*",width/1.9,height/1.19,center)
+drawText("*-*",width/2.1,height/1.19,center)
+
+// TOP (make minus bigger on top)
+// drawText("*+*",width/2.0,height/3.19,center)
+//drawText("*-*",width/2.1,height/3.19,center)
+//drawText("*-*",width/1.9,height/3.19,center)
+
+// RIGHT 
+// drawText("*+*",width/1.3,height/1.75,center)
+
+//Parameters (x, y, width, height, start, extent, open)
+drawArc(0,0,width,height,-45,90,false) fg=black
+drawArc(0,0,width,height,45,90,false) fg=black
+drawArc(0,0,width,height,135,90,false) fg=black 
+drawArc(0,0,width,height,225,90,false) fg=black
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
